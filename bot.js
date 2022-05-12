@@ -21,6 +21,6 @@ client.on('messageCreate', (message) => {
     }
 });
 
-Token = process.env.TOKEN;
+Token = process.env.DISCORD_TOKEN;
 client.login(Token);
 
